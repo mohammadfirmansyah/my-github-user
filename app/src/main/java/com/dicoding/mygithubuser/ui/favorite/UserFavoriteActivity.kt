@@ -38,12 +38,17 @@ class UserFavoriteActivity : AppCompatActivity() {
         userFavoriteViewModel.getAllFavoriteUser().observe(this) { favoriteUserList ->
             if (favoriteUserList != null)
                 adapter.setData(favoriteUserList)
+
+            if (favoriteUserList.isEmpty())
+                binding.noFavoriteData.visibility = View.VISIBLE
+            else
+                binding.noFavoriteData.visibility = View.GONE
         }
         adapter = UserFavoriteAdapter()
 
-        binding.rvFavorite?.layoutManager = LinearLayoutManager(this)
-        binding.rvFavorite?.setHasFixedSize(false)
-        binding.rvFavorite?.adapter = adapter
+        binding.rvFavorite.layoutManager = LinearLayoutManager(this)
+        binding.rvFavorite.setHasFixedSize(false)
+        binding.rvFavorite.adapter = adapter
 
         showRecyclerView()
     }

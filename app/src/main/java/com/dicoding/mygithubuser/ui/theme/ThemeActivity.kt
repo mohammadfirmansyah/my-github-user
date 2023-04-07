@@ -4,16 +4,13 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.CompoundButton
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
-import com.dicoding.mygithubuser.R
 import com.dicoding.mygithubuser.databinding.ActivityThemeBinding
-import com.dicoding.mygithubuser.factory.ViewModelFactory
-import com.dicoding.mygithubuser.ui.theme.ThemePreferences
-import com.dicoding.mygithubuser.ui.theme.ThemeViewModelFactory
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("settings")
 
@@ -39,9 +36,11 @@ class ThemeActivity : AppCompatActivity() {
             if (isDarkModeActive) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
                 switchTheme.isChecked = true
+                Toast.makeText(this, "Mode gelap aktif", Toast.LENGTH_SHORT).show()
             } else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 switchTheme.isChecked = false
+                Toast.makeText(this, "Mode terang aktif", Toast.LENGTH_SHORT).show()
             }
         }
 

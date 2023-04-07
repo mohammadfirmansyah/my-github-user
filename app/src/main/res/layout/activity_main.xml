@@ -23,7 +23,7 @@
         android:layout_margin="16dp"
         android:contentDescription="@string/favorite"
         android:foregroundGravity="bottom"
-        android:backgroundTint="?attr/colorPrimary"
+        app:backgroundTint="?attr/colorSecondary"
         app:fabSize="normal"
         app:layout_anchor="@id/rv_user"
         app:layout_anchorGravity="bottom|end"

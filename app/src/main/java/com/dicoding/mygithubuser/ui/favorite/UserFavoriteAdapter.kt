@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.dicoding.mygithubuser.databinding.ListUserBinding
 import com.dicoding.mygithubuser.db.local.entity.UserEntity
-import com.dicoding.mygithubuser.db.remote.response.UserGithubResponse
 
 class UserFavoriteAdapter: RecyclerView.Adapter<UserFavoriteAdapter.ListViewHolder>() {
 

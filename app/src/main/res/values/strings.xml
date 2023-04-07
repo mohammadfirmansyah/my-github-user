@@ -14,8 +14,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="memuat_data">Sedang Mengambil Data</string>
     <string name="terkoneksi_dengan_internet">Pastikan anda terkoneksi dengan internet!</string>
-    <string name="dark_mode">Aktifkan Mode Gelap  </string>
+    <string name="dark_mode">Aktifkan Mode Gelap</string>
     <string name="favorite">Github Favorit Pengguna</string>
     <string name="tidak_memiliki_favorit">Anda belum memiliki daftar favorit.</string>
     <string name="setting">Pengaturan</string>
+    <string name="switch_theme">Ganti tema</string>
 </resources>
