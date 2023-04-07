@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aplikasi Github Pengguna</string>
+
+    <string name="name">Nama Pengguna</string>
+    <string name="url">Alamat Github</string>
+    <string name="repository">Repositori :</string>
+    <string name="follower">Pengikut :</string>
+    <string name="following">Mengikuti :</string>
+    <string name="value">0</string>
+    <string name="detail_user">Detail Pengguna</string>
+    <string name="account">Nama Pengguna</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Cari username..</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="memuat_data">Sedang Mengambil Data</string>
+    <string name="terkoneksi_dengan_internet">Pastikan anda terkoneksi dengan internet!</string>
+    <string name="dark_mode">Aktifkan Mode Gelap  </string>
+    <string name="favorite">Github Favorit Pengguna</string>
+    <string name="tidak_memiliki_favorit">Anda belum memiliki daftar favorit.</string>
+    <string name="setting">Pengaturan</string>
+</resources>

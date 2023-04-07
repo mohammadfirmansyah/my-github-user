@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#CFCFCF</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Github Theme Color-->
+    <color name="ght_1">#171515</color>
+    <color name="ght_2">#FFFFFF</color>
+</resources>
