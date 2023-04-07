@@ -1,4 +1,4 @@
-package com.dicoding.mygithubuser.factory
+package com.dicoding.mygithubuser.ui.factory
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

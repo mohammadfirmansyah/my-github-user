@@ -14,7 +14,7 @@ import com.dicoding.mygithubuser.R
 import com.dicoding.mygithubuser.databinding.ActivityUserFavoriteBinding
 import com.dicoding.mygithubuser.db.local.entity.UserEntity
 import com.dicoding.mygithubuser.db.remote.response.UserGithubResponse
-import com.dicoding.mygithubuser.factory.ViewModelFactory
+import com.dicoding.mygithubuser.ui.factory.ViewModelFactory
 import com.dicoding.mygithubuser.repository.UserFavoriteRepository
 import com.dicoding.mygithubuser.ui.github.UserGithubActivity
 

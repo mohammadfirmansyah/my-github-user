@@ -22,7 +22,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.mygithubuser.R
 import com.dicoding.mygithubuser.databinding.ActivityMainBinding
 import com.dicoding.mygithubuser.db.remote.response.ItemsItem
-import com.dicoding.mygithubuser.factory.ViewModelFactory
+import com.dicoding.mygithubuser.ui.factory.ViewModelFactory
 import com.dicoding.mygithubuser.ui.theme.ThemePreferences
 import com.dicoding.mygithubuser.ui.theme.ThemeViewModelFactory
 import com.dicoding.mygithubuser.ui.theme.ThemeActivity

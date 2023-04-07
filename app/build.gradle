@@ -18,7 +18,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "AUTH_TOKEN", '\"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\"')
+        buildConfigField("String", "AUTH_TOKEN", '\"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\"')
     }
 
     buildTypes {
@@ -80,4 +80,6 @@ dependencies {
 
     implementation "androidx.room:room-runtime:2.5.1"
     kapt "androidx.room:room-compiler:2.5.1"
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
 }

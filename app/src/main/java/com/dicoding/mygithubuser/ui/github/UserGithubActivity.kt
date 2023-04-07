@@ -19,7 +19,7 @@ import com.dicoding.mygithubuser.adapter.SectionsPagerAdapter
 import com.dicoding.mygithubuser.databinding.ActivityUserGithubBinding
 import com.dicoding.mygithubuser.db.local.entity.UserEntity
 import com.dicoding.mygithubuser.db.remote.response.UserGithubResponse
-import com.dicoding.mygithubuser.factory.ViewModelFactory
+import com.dicoding.mygithubuser.ui.factory.ViewModelFactory
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

@@ -14,25 +14,25 @@
         android:theme="@style/Theme.MyGitHubUser"
         tools:targetApi="31">
         <activity
-            android:name=".ThemeActivity"
+            android:name=".ui.splash.SplashScreenActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.theme.ThemeActivity"
             android:exported="false" />
         <activity
-            android:name=".UserFavoriteActivity"
+            android:name=".ui.favorite.UserFavoriteActivity"
             android:exported="false" />
         <activity
             android:name=".ui.github.UserGithubActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.main.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.dicoding.mygithubuser.ui.theme.ThemeActivity" />
-        <activity android:name="com.dicoding.mygithubuser.ui.favorite.UserFavoriteActivity" />
     </application>
 
 </manifest>
