@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.mygithubuser.R
 import com.dicoding.mygithubuser.adapter.UserFavoriteAdapter
 import com.dicoding.mygithubuser.databinding.ActivityUserFavoriteBinding
-import com.dicoding.mygithubuser.db.FavoriteHelper
 import com.dicoding.mygithubuser.model.UserGithubResponse
 
 class UserFavoriteActivity : AppCompatActivity() {
@@ -21,7 +20,6 @@ class UserFavoriteActivity : AppCompatActivity() {
     private lateinit var helper: FavoriteHelper
     private var listFavorite: ArrayList<UserGithubResponse> = ArrayList()
     private val adapter = UserFavoriteAdapter()
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

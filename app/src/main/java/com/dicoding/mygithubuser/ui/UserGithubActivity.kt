@@ -15,10 +15,7 @@ import com.dicoding.mygithubuser.viewmodel.MainViewModel
 import com.dicoding.mygithubuser.R
 import com.dicoding.mygithubuser.adapter.SectionsPagerAdapter
 import com.dicoding.mygithubuser.databinding.ActivityUserGithubBinding
-import com.dicoding.mygithubuser.db.DatabaseContract
 import com.dicoding.mygithubuser.db.DatabaseContract.FavoriteColumns.Companion.TABLE_NAME
-import com.dicoding.mygithubuser.db.DatabaseHelper
-import com.dicoding.mygithubuser.db.FavoriteHelper
 import com.dicoding.mygithubuser.model.UserGithubResponse
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
