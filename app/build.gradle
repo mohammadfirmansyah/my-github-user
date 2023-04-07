@@ -18,7 +18,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "AUTH_TOKEN", '"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"')
+        buildConfigField("String", "AUTH_TOKEN", '\"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\"')
     }
 
     buildTypes {
@@ -62,7 +62,7 @@ dependencies {
 
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
 
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
 
